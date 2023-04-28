@@ -7,3 +7,7 @@ def fibonacci(n):
         prox_fib = fbncc[-1] + fbncc[-2]
         fbncc.append(prox_fib)
     return fbncc[n]
+
+if __name__ == "__main__":
+    n = int(input('N: '))
+    print(fibonacci(n))
